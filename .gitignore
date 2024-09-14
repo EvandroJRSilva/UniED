@@ -1,0 +1,6 @@
+# extensions
+*.zip
+
+# Folders
+.vscode/
+src/aula*/exe
