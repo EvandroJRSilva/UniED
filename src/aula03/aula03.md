@@ -258,7 +258,7 @@ Vamos tentar resolver os seguintes desafios:
   * Agora você deve ligar as duas estruturas da seguinte maneira:
     * Acrescente à estrutura `pessoa`, 1 variável do tipo `conta`;
     * O usuário do sistema agora deverá ter como acrescentar os dados da conta;
-    * O nome e CPF do titular devem ser ponteiros para os cmapos existentes na estrutura `pessoa`.
+    * O nome e CPF do titular devem ser ponteiros para os campos existentes na estrutura `pessoa`.
 * **DESAFIO 03**
   * Agora você deve acrescentar uma estrurutra chamada `curso`, com os seguintes atributos:
     * Nome;
