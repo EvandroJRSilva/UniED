@@ -2,6 +2,13 @@
 
 Sumário
 
+- [Aula 04](#aula-04)
+  - [Ordenação](#ordenação)
+    - [Bubble sort](#bubble-sort)
+    - [Merge sort](#merge-sort)
+    - [Quick sort](#quick-sort)
+    - [Comparativo entre os três algoritmos vistos](#comparativo-entre-os-três-algoritmos-vistos)
+
 ## Ordenação
 
 A tarefa de ordenação é muito comum, tanto que lidamos com ordenações sem nem percebermos. Exemplos:
@@ -30,8 +37,18 @@ Neste algoritmo uma estrutura de dados é repartiva recursivamente até que rest
     <caption>Figura 01: Merge sort com o nosso array de exemplo</caption>
 </div>
 
-**Comportamento assintótico**: $O(log(n))$.
+**Comportamento assintótico**: $O(n.log(n))$.
 
 ### Quick sort
 
 É eficiente e fácil de implementar. Este algoritmo trabalha com o conceito de um **pivô**, ou seja, um elemento escolhido como a referência de comparação para outros valores. Como ele funciona: [Vídeo explicativo 1](https://www.youtube.com/watch?v=WP7KDljG6IM), [Vídeo explicativo 2](https://www.youtube.com/watch?v=3San3uKKHgg), [Vídeo explicativo 3](https://www.youtube.com/watch?v=Hoixgm4-P4M).
+
+**Comportamento assintótico**: $O(n^{2})$
+
+### Comparativo entre os três algoritmos vistos
+
+| Algoritmo | $\Omega$ | $\Theta$ | $O$ |
+|---|---|---|---|
+| Bubble sort | $\Omega(n)$ | $\Theta(n^{2})$ | $O(n^{2})$ |
+| Merge sort | $\Omega(n.logn)$ | $\Theta(n.logn)$ | $O(n.logn)$ |
+| Quick sort | $\Omega(n.logn)$ | $\Theta(n.logn)$ | $O(n^{2})$ |
