@@ -15,10 +15,10 @@ void hanoi(int n, char inicio, char fim, char aux){
 
 int main()
 {
-    int n = 3;
+    int n = 4;
     char inicio, fim, aux;
 
-    inicio = 'A'; fim = 'C'; aux = 'B';
+    inicio = 'A'; fim = 'B'; aux = 'C';
     
     hanoi(n, inicio, fim, aux);
 
