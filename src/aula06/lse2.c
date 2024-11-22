@@ -11,6 +11,12 @@ typedef struct elemento{
     TODO
         - Finalizar o inserir (inserir inicio, meio);
         - Criar excluir (fim, inicio, meio)
+        - Links:
+            + https://en.cppreference.com/w/c/variadic
+            + https://en.cppreference.com/w/c/variadic/va_arg
+            + https://www.tutorialspoint.com/cprogramming/c_variable_arguments.htm
+            + https://www.geeksforgeeks.org/variadic-functions-in-c/
+            + https://www.gnu.org/software/c-intro-and-ref/manual/html_node/Variable-Number-of-Arguments.html
     */
 void inserir(int num, ...);
 void imprimirLista(elemento_t *inicio);
